@@ -57,5 +57,5 @@
       port: 3000,
       open: true,
     },
-    base: "/Waste-Management-App-Design",
+    base: process.env.VITE_BASE_PATH || "/Waste-Management-App-Design",
   });
